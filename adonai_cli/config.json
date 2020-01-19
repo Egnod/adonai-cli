@@ -1,6 +1,1 @@
-{
-    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJleHAiOjE1Nzk0NTEwNTEsImlhdCI6MTU3OTQ1MDc1MSwibmJmIjoxNTc5NDUwNzUxLCJpZGVudGl0eSI6MX0.yhdpSw96Ny0zfKhBP4mOBv4uO-QM17tZQ16gLqWiAdi6lHv2bBsmD1d5AowYDBdf8njVG7D4vP6Z0sq4lU38fw",
-    "root_endpoint": "http://localhost:5000",
-    "username": "admin",
-    "password": "admin"
-}
+{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJleHAiOjE1Nzk0NTEwNTEsImlhdCI6MTU3OTQ1MDc1MSwibmJmIjoxNTc5NDUwNzUxLCJpZGVudGl0eSI6MX0.yhdpSw96Ny0zfKhBP4mOBv4uO-QM17tZQ16gLqWiAdi6lHv2bBsmD1d5AowYDBdf8njVG7D4vP6Z0sq4lU38fw", "root_endpoint": "http://5.101.51.237:8000", "username": "admin", "password": "admin"}

@@ -1,9 +1,12 @@
-import termtables
-from typing import List, Dict, Union
 from enum import Enum
+from typing import Dict, List, Union
+
+import termtables
+
 
 class Defaults(Enum):
     NO_INPUT = "no_input"
+
 
 def get_table(dict_list: Union[List[Dict], Dict], header: List[str]):
     rows = []
@@ -13,11 +16,8 @@ def get_table(dict_list: Union[List[Dict], Dict], header: List[str]):
 
     for obj in dict_list:
         rows.append(list(obj.values()))
-    
-    return termtables.to_string(
-        rows,
-        header=header
-    )
+
+    return termtables.to_string(rows, header=header)
 
 
 def get_fields_dict(fields: List[str]):
